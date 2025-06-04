@@ -42,6 +42,7 @@ or
 ```bash
 yarn run tests
 ```
+![cypress-recording](./docs/cypress_recording.gif)
 Reports will be generated separately for API and UI test cases but will have the same essence of Allure.
 
 ![allure-report](./docs/allure-report.png)

@@ -4,7 +4,7 @@
   "description": "Cypress sample repo for UI + API automation [Cypress + Typescript + Allure]",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run — env allure=true",
+    "cy:run": "cypress run — env allure=true --headed",
     "clean:folders": "rm -R -f allure-report/* && rm -R -f allure-results/*",
     "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "beforetest": "npm run clean:folders",
